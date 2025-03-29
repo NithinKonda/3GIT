@@ -11,7 +11,7 @@ const GitHub3DHeatmap = () => {
   const sceneRef = useRef(null);
 
   // Function to fetch GitHub contributions
-  const fetchContributions = async (username) => {
+  const fetchContributions = async () => {
     setIsLoading(true);
     setError('');
     

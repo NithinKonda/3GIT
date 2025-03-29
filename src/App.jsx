@@ -1,13 +1,12 @@
 
 import './App.css'
+import GitHub3DHeatmap from './components/Github3DHeatmap'
 
 function App() {
 
   return (
       <div>
-        <p className="text-3xl font-bold underline">
-          Hello world!
-        </p>
+        <GitHub3DHeatmap />
         </div>
 
   )
