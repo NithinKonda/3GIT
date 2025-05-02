@@ -1,10 +1,10 @@
 import "./App.css";
-
+import GithubContributionHeatmap from "./components/GitHeatMap";
 function App() {
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <GithubContributionHeatmap />
     </>
   );
 }
